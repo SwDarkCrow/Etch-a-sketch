@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #1E1E2E;
+  background-color: #181825;
   color: White;
   display: flex;
   align-items: center;
@@ -15,9 +15,9 @@ body {
 
 .container {
   box-sizing: content-box;
-  width: 500px;
-  height: 500px;
-  border: solid 2px White;
+  width: 80vh;
+  height: 80vh;
+  border: solid 2px Grey;
   display: flex;
   flex-wrap: wrap;
 }
