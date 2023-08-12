@@ -10,4 +10,14 @@ function createGrid(number = 16) {
   }
 }
 
-createGrid(16);
+createGrid(50);
+
+let squares = container.childNodes;
+for (const square of squares){
+  square.addEventListener('mouseover', color);
+}
+
+function color(event){
+  event.target.style.backgroundColor = `Black`;
+}
+
