@@ -2,21 +2,43 @@
   box-sizing: border-box; 
 }
 
-body {
+body, .background {
   background-color: #181825;
   color: White;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
   flex-direction: column;
+  font-family: sans-serif;
+}
+
+.background {
+  background-color: Grey;
+  width: 950px;
+  padding-bottom: 50px;
+  border-radius: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p, button {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: White;
+  color: #181825;
+  padding: 7.5px;
+  border-radius: 10px;
 }
 
 .container {
   box-sizing: content-box;
-  width: 80vh;
-  height: 80vh;
+  width: 900px; 
+  height: 900px;
   border: solid 2px Grey;
   display: flex;
   flex-wrap: wrap;
