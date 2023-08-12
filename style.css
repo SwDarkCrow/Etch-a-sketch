@@ -10,6 +10,7 @@ body, .background {
   justify-content: center;
   flex-direction: column;
   font-family: sans-serif;
+  padding: 50px;
 }
 
 .background {
@@ -17,9 +18,10 @@ body, .background {
   width: 950px;
   padding-bottom: 50px;
   border-radius: 15px;
+  padding-top: 0;
 }
 
-h2 {
+h1 {
   margin-bottom: 10px;
 }
 
