@@ -14,10 +14,10 @@ body, .background {
 }
 
 .background {
-  background-color: Grey;
+  background-color: #8F97CB;
   width: 950px;
   padding-bottom: 50px;
-  border-radius: 15px;
+  border-radius: 30px;
   padding-top: 0;
 }
 
@@ -39,8 +39,8 @@ button {
 
 .container {
   box-sizing: content-box;
-  width: 900px; 
-  height: 900px;
+  width: 900.3px; 
+  height: 900.3px;
   border: solid 2px Grey;
   display: flex;
   flex-wrap: wrap;
@@ -49,4 +49,5 @@ button {
 .container > div {
   border: solid 1px Grey;
   background-color: White;
+  aspect-ratio: 1;
 }

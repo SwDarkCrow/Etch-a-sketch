@@ -4,7 +4,7 @@ function createGrid(number = 16) {
   for (let i = 0; i < number; i++) {
     for (let j = 0; j< number; j++) {
       let square = document.createElement('div');
-      square.style.minWidth = `${80 / number}vh`;
+      square.style.minWidth = `${900 / number}px`;
       container.appendChild(square);
     }
   }
