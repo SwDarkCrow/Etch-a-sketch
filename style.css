@@ -39,8 +39,8 @@ button {
 
 .container {
   box-sizing: content-box;
-  width: 900.3px; 
-  height: 900.3px;
+  width: 700.3px; 
+  height: 700.3px;
   border: solid 2px Grey;
   display: flex;
   flex-wrap: wrap;
